@@ -15,7 +15,7 @@ const ApiKeyManager = () => {
     try {
 
       const res = await axios.get(
-        "http://meterflow-backend-zdoe.onrender.com/api/key/keys"
+        "https://meterflow-backend-zdoe.onrender.com/api/key/keys"
       );
 
       setKeys(res.data);
@@ -33,7 +33,7 @@ const ApiKeyManager = () => {
     try {
 
       await axios.put(
-        "http://meterflow-backend-zdoe.onrender.com/api/key/revoke",
+        "https://meterflow-backend-zdoe.onrender.com/api/key/revoke",
         {
           keyId: id
         }
