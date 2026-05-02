@@ -1,16 +1,72 @@
-# React + Vite
+# 🎨 MeterFlow Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MeterFlow Frontend is a React-based dashboard for monitoring API usage, billing, logs, and API key management.
 
-Currently, two official plugins are available:
+This dashboard provides real-time analytics and management for the MeterFlow API Billing Platform.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+# 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Dashboard Analytics
+- API Usage Statistics
+- Revenue Tracking
+- Usage Charts
+- API Logs Table
+- API Key Management
+- Responsive UI
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 🛠 Tech Stack
+
+- React.js
+- Tailwind CSS
+- Axios
+- Recharts
+- Vite
+
+---
+
+# 📊 Dashboard Features
+
+## 📈 Analytics Cards
+- Total Requests
+- Revenue
+- Total Logs
+
+---
+
+## 📉 Usage Charts
+- Daily API Requests Chart
+
+---
+
+## 📜 Logs Table
+Displays:
+
+- Endpoint
+- HTTP Method
+- Status Code
+
+---
+
+## 🔑 API Key Management
+- View API Keys
+- Revoke API Keys
+
+---
+
+# 📁 Project Structure
+
+```bash
+frontend/
+│
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── services/
+│   ├── App.jsx
+│   └── main.jsx
+│
+└── package.json
