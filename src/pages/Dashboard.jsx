@@ -27,7 +27,7 @@ const Dashboard = () => {
     try {
 
       const res = await axios.get(
-        "http://localhost:5000/api/billing/usage"
+        "http://meterflow-backend-zdoe.onrender.com/api/billing/usage"
       );
 
       setStats(res.data);
@@ -48,7 +48,7 @@ const Dashboard = () => {
     try {
 
       const res = await axios.get(
-        "http://localhost:5000/api/logs"
+        "http://meterflow-backend-zdoe.onrender.com/api/logs"
       );
 
       setLogs(res.data);
